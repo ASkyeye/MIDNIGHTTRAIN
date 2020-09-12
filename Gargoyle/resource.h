@@ -1,0 +1,2 @@
+#define RID_GREMLIN 100
+#define RID_PAYLOAD 200

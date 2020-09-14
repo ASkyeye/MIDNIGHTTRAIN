@@ -29,7 +29,7 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
 	return TRUE;
 }
 
-// Mandatory functions
+// Mandatory functions - Code credit goes to reenz0h@https://institute.sektor7.net/rto-windows-persistence
 // ------------------------------------------------------------------------
 
 BOOL WINAPI pfnOpenPort(HANDLE hMonitor, LPWSTR pName, PHANDLE pHandle){ return TRUE; }
@@ -47,7 +47,7 @@ DWORD WINAPI pfnNotifyUsedPorts(HANDLE hMonitor,DWORD cPorts,PCWSTR *ppszPorts){
 DWORD WINAPI pfnNotifyUnusedPorts(HANDLE hMonitor,DWORD cPorts,PCWSTR *ppszPorts){ return ERROR_SUCCESS; }
 DWORD WINAPI pfnPowerEvent(HANDLE hMonitor,DWORD event,POWERBROADCAST_SETTING *pSettings){ return ERROR_SUCCESS; }
 
-// Function which gets called when port monitor DLL is loaded in spoolsv
+// Function which gets called when port monitor DLL is loaded in spoolsv - Code credit goes to reenz0h@https://institute.sektor7.net/rto-windows-persistence
 // ------------------------------------------------------------------------
 
 LPMONITOR2 WINAPI InitializePrintMonitor2(PMONITORINIT pMonitorInit, PHANDLE phMonitor){

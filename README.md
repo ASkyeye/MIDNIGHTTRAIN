@@ -36,9 +36,6 @@ Here's a guide to test the framework in 10 easy steps:
 10. Finally to test, loader <path-to-gargoyle_x64.bin>
 ```
 
-## Read more
-[![](https://img.shields.io/badge/FalconZero-E5A505?style=flat-square)](https://slaeryan.github.io/posts/falcon-zero-alpha.html)
-
 ## Author
 Upayan ([@slaeryan](https://twitter.com/slaeryan)) [[slaeryan.github.io](https://slaeryan.github.io)]
 

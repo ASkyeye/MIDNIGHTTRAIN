@@ -11,8 +11,8 @@ This is a PoC framework and as such will not be maintained. Sorry!
 
 <p align="center">
   <img src="itjustworks.jpg">
+  <figcaption>lol</figcaption>
 </p>
-lol
 
 It has been made as a small weekend project and has received limited testing ergo, bugs/undefined behaviour are to be expected. However, I am willing to fix any bugs in my spare time should you encounter them so feel free to open an issue.
 
@@ -38,6 +38,10 @@ Here's a guide to test the framework in 10 easy steps:
 
 ## Author
 Upayan ([@slaeryan](https://twitter.com/slaeryan)) [[slaeryan.github.io](https://slaeryan.github.io)]
+
+## Caveats
+- Need an elevated context to install persistence.
+- Maximum permissible size of payload usable with this framework is ~`36 kB`. Need to craft a custom stager within the size limit to use Stageless payloads.
 
 ## License
 All the code included in this project is licensed under the terms of the GNU GPLv2 license.

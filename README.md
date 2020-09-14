@@ -25,15 +25,15 @@ Here's a guide to test the framework in 10 easy steps:
 
 ```
 1. Make sure you have a working VC++ 2019 dev environment set up beforehand.
-1. Place your 64-bit Staged Meterpreter/Beacon shellcode payload in `Bin` as `payload_x64.bin`. You might need to use sRDI to convert DLLs to PIC blob if your framework doesn't support generation of Staged payloads as shellcode.
-1. Open a x64 Developer Command Prompt.
-1. git clone https://github.com/slaeryan/MIDNIGHTTRAIN.git - To clone the repository.
-1. cd MIDNIGHTTRAIN & cd Gremlin & compile64.bat - To build the Gremlin implant.
-1. cd .. & cd Gargoyle & compile64.bat - To build the Gargoyle implant.
-1. You'll find two compiled implant DLLs in the `Bin` folder named `gremlin_x64.dll` and `gargoyle_x64.dll`.
-1. cd Python & python ConvertToShellcode.py ../Bin/gargoyle_x64.dll - To convert Gargoyle DLL to PIC blob.
-1. cd .. & cd Scratchpad & compile64.bat - To build the loader for inline execution of shellcode blob.
-1. Finally to test, loader <path-to-gargoyle_x64.bin>
+2. Place your 64-bit Staged Meterpreter/Beacon shellcode payload in `Bin` as `payload_x64.bin`. You might need to use sRDI to convert DLLs to PIC blob if your framework doesn't support generation of Staged payloads as shellcode.
+3. Open a x64 Developer Command Prompt.
+4. git clone https://github.com/slaeryan/MIDNIGHTTRAIN.git - To clone the repository.
+5. cd MIDNIGHTTRAIN & cd Gremlin & compile64.bat - To build the Gremlin implant.
+6. cd .. & cd Gargoyle & compile64.bat - To build the Gargoyle implant.
+7. You'll find two compiled implant DLLs in the `Bin` folder named `gremlin_x64.dll` and `gargoyle_x64.dll`.
+8. cd Python & python ConvertToShellcode.py ../Bin/gargoyle_x64.dll - To convert Gargoyle DLL to PIC blob.
+9. cd .. & cd Scratchpad & compile64.bat - To build the loader for inline execution of shellcode blob.
+10. Finally to test, loader <path-to-gargoyle_x64.bin>
 ```
 
 ## Read more

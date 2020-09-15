@@ -47,7 +47,7 @@ Upayan ([@slaeryan](https://twitter.com/slaeryan)) [[slaeryan.github.io](https:/
 1. [https://github.com/perturbed-platypus](https://github.com/perturbed-platypus) - Big thanks to [@TTimzen](https://twitter.com/ttimzen?lang=en) & [@r00tkillah](https://twitter.com/r00tkillah?lang=en) for their wonderful research.
 2. [https://gist.github.com/jthuraisamy/e602d5d870230df3ce00178001f9ac16](https://gist.github.com/jthuraisamy/e602d5d870230df3ce00178001f9ac16) - Another PoC thanks to [@Jackson_T](https://twitter.com/jackson_t?lang=en)
 3. [Sektor7 RTO: Windows Persistence Course](https://institute.sektor7.net/rto-windows-persistence) - For the Port Monitor DLL snippet.
-4. [Sektor7 RTO: Malware Development Essentials](https://institute.sektor7.net/red-team-operator-malware-development-essentials) & [reenz0h](https://twitter.com/reenz0h) - For the wonderful initiation into the world of implant development and the templates that I still use to this date.
+4. [Sektor7 RTO: Malware Development Essentials](https://institute.sektor7.net/red-team-operator-malware-development-essentials) & [reenz0h](https://twitter.com/Sektor7Net) - For the wonderful initiation into the world of implant development and the templates that I still use to this date.
 5. [@am0nsec](https://twitter.com/am0nsec?lang=en) for dropping dem hints regarding the token impersonation.
 6. [CIA Vault7 leaks](https://wikileaks.org/ciav7p1/cms/page_31227915.html) - I have a joke but it is [REDACTED]().
 7. [@monoxgas](https://twitter.com/monoxgas?lang=en) for sRDI and being an awesome researcher in general!

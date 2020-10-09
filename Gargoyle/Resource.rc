@@ -1,9 +1,4 @@
 #include "resource.h"
 
-#if defined(WIN64)
 RID_GREMLIN BINARY "..\\Bin\\gremlin_x64.dll"
 RID_PAYLOAD BINARY "..\\Bin\\payload_x64.bin"
-#else
-RID_GREMLIN BINARY "..\\Bin\\gremlin_x64.dll"
-RID_PAYLOAD BINARY "..\\Bin\\payload_x64.bin"
-#endif
